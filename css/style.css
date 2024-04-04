@@ -122,9 +122,6 @@ ul li{
     color: #555;
     text-decoration: line-through;
   }
-  ul li span:hover{
-    background: #60797a;
-  }
   .nama-belanja{
     color: #ffffff;
     width: 100%;
