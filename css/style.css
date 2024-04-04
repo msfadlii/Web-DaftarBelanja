@@ -12,7 +12,7 @@
 }
 .daftar{
     display: flex;
-    outline: 5px solid #CCD5AE;
+    outline: 5px solid #dfdfdf;
     border-radius: 10px;
     width: 540px;
     height: 300px;
@@ -20,22 +20,22 @@
     margin-right: 10px;
 }
 .daftar, .daftar .container, .daftar .judul, .daftar h4{
-    background: #FAEDCD;
-    color: #D4A373;
-    border-color: #CCD5AE !important;
+    background: #76aca3;
+    color: #ffffff;
+    border-color: #ffffff !important;
     border-width: 4px;
 }
 .sidebar {
     display: flex;
-    outline: 5px solid #CBC0D3;
+    outline: 5px solid #76aca7;
     border-radius: 10px;
     width: 15rem;
     padding: 10px;
 }
 .sidebar, .sidebar .container, .sidebar .judul, .sidebar label, .sidebar h4{
-  background-color: #EFD3D7;
-  color: #8E9AAF;
-  border-color: #CBC0D3;
+  background-color: #ffffff;
+  color: #60797a;
+  border-color: #60797a;
   border-width: 4px;
 }
 .container {
@@ -55,7 +55,7 @@ label{
 input{
     border: 3px solid;
     border-radius: 10px;
-    border-color: black;
+    border-color: #60797a;
     width: auto;
     height: 30px;
 }
@@ -65,14 +65,13 @@ input::placeholder{
 }
 input:focus {
   padding-left: 15px;
-  border-color: red;
 }
 .btn-tambah{
     height: 30px;
     border-radius: 10px;
 }
 ul{
-  background: #FAEDCD;
+  background: #76aca3;
 }
 ul li{
     display: flex;
@@ -85,7 +84,7 @@ ul li{
     position: relative;
     word-wrap: break-word;
     font-size: 14px;
-    background: #FAEDCD;
+    background: #76aca3;
   }
   ul li::before{
     content: '';
@@ -117,30 +116,30 @@ ul li{
     line-height: 40px;
     text-align: center;
     border-radius: 50%;
-    background: #FAEDCD;
+    background: #76aca3;
   }
   ul li span.checked{
     color: #555;
     text-decoration: line-through;
   }
   ul li span:hover{
-    background: #edeef0;
+    background: #60797a;
   }
   .nama-belanja{
-    color: #555;
+    color: #ffffff;
     width: 100%;
     font-size: 14px;
   }
   .harga{
     font-size: 12px;
-    color: #555;
+    color: #ffffff;
     margin-left: 0;
     width: 200px;
   }
   .btn-tambah{
-    color: #8E9AAF;
+    color: #ffffff;
     font-weight: 500;
-    background-color: #FEEAFA;
+    background-color: #60797a;
     border-color: #CBC0D3;
     border-width: 3px;
   }
