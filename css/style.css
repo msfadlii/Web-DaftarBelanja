@@ -1,0 +1,149 @@
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #edeef0;
+}
+.page{
+    display: flex;
+    background: #edeef0;
+    justify-content: center;
+}
+.page > * {
+    padding: 1rem;
+}
+.daftar{
+    display: flex;
+    outline: 5px solid #CCD5AE;
+    border-radius: 10px;
+    width: 540px;
+    height: fit-content;
+    padding: 10px;
+    margin-right: 10px;
+}
+.daftar, .daftar .container, .daftar .judul, .daftar h4{
+    background: #FAEDCD;
+    color: #D4A373;
+    border-color: #CCD5AE !important;
+    border-width: 4px;
+}
+.sidebar {
+    display: flex;
+    outline: 5px solid #CBC0D3;
+    border-radius: 10px;
+    width: 15rem;
+    padding: 10px;
+}
+.sidebar, .sidebar .container, .sidebar .judul, .sidebar label, .sidebar h4{
+  background-color: #EFD3D7;
+  color: #8E9AAF;
+  border-color: #CBC0D3;
+  border-width: 4px;
+}
+.container {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.judul{
+    border-bottom: 1px solid black;
+}
+label{
+    font-size: 14px;
+    font-weight: 500;
+    background-color: white;
+}
+input{
+    border: 3px solid;
+    border-radius: 10px;
+    border-color: #CBC0D3;
+    width: auto;
+    height: 30px;
+}
+input::placeholder{
+    font-size: 10px;
+    padding: 10px;
+}
+input:focus {
+  padding-left: 15px;
+}
+.btn-tambah{
+    height: 30px;
+    border-radius: 10px;
+}
+ul{
+  background: #FAEDCD;
+}
+ul li{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    font-size: 17px;
+    padding: 10px 0px 10px 10px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    word-wrap: break-word;
+    font-size: 14px;
+    background: #FAEDCD;
+  }
+  ul li::before{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url("../img/unchecked.png");
+    background-size: cover;
+    background-position: center;
+    top: 5px;
+    left: -30px;
+  }
+  ul li.checked{
+    color: #555;
+    text-decoration: line-through;
+  }
+  ul li.checked::before{
+    background-image: url("../img/checked.png");
+  }
+  ul li span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    background: #FAEDCD;
+  }
+  ul li span.checked{
+    color: #555;
+    text-decoration: line-through;
+  }
+  ul li span:hover{
+    background: #edeef0;
+  }
+  .nama-belanja{
+    color: #555;
+    width: 100%;
+    font-size: 14px;
+  }
+  .harga{
+    font-size: 12px;
+    color: #555;
+    margin-left: 0;
+    width: 200px;
+  }
+  .btn-tambah{
+    color: #8E9AAF;
+    font-weight: 500;
+    background-color: #FEEAFA;
+    border-color: #CBC0D3;
+    border-width: 3px;
+  }
+  .btn-tambah:hover{
+    background-color: #CBC0D3;
+    color: #FEEAFA;
+  }
