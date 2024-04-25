@@ -27,6 +27,14 @@
     border-color: #ffffff !important;
     border-width: 4px;
 }
+.totalHarga span{
+  display: flex;
+  background: #76aca3;
+  color: #ffffff;
+  font-size: 20px;
+  border-color: #ffffff !important;
+  border-width: 4px;
+}
 .sidebar {
     display: flex;
     outline: 5px solid #76aca7;
